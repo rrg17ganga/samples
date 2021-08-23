@@ -1,0 +1,19 @@
+public class BoxDemo2 {
+
+    static int boxValue(int s)// static method
+    {
+        return (s*s*s);
+    }
+    
+    
+    public static void main(String[] args) {
+        
+        int x=5;// it automatically assign to the box size
+        int cube = BoxDemo2.boxValue(x);//invoke the method here
+       
+        System.out.println("BOx value is: "+cube);
+    }
+}
+
+
+
